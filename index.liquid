@@ -3,5 +3,18 @@ layout: layout.liquid
 title: 11ty Boilerplate
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+
+<h1>INFORMATION ON THE IPHONE 9</h1>
+
+<h2>Product Advertisement:</h2>
+
+<div x-data="{thumbImage: $fetchjson('https://dummyjson.com/products/1', jsonItem='thumbnail')}">
+  <img alt="thumbnail" x-bind:src="thumbImage" />
+</div>
+
+<h2>Official Description:</h2>
+<div x-data="{description: $fetchjson('https://dummyjson.com/products/1', jsonItem='description')}">
+  <p x-text="description"></p>
+</div>
+
+
