@@ -4,17 +4,17 @@ title: 11ty Boilerplate
 ---
 
 
-<h1>INFORMATION ON THE IPHONE 9</h1>
 
-<h2>Product Advertisement:</h2>
 
-<div x-data="{thumbImage: $fetchjson('https://dummyjson.com/products/1', jsonItem='thumbnail')}">
-  <img alt="thumbnail" x-bind:src="thumbImage" />
+<h2>Quote:</h2>
+
+<div x-data="{quote: $fetchjson('https://dummyjson.com/quotes/1', jsonItem='quote')}">
+  <p x-text="quote"></p>
 </div>
 
-<h2>Official Description:</h2>
-<div x-data="{description: $fetchjson('https://dummyjson.com/products/1', jsonItem='description')}">
-  <p x-text="description"></p>
+<h2>Author:</h2>
+<div x-data="{author: $fetchjson('https://dummyjson.com/quotes/1', jsonItem='author')}">
+  <p x-text="author"></p>
 </div>
 
 
