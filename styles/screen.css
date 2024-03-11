@@ -10,14 +10,14 @@ body {
 
 h1 {
     font-size: x-large;
-    color: #89ff52;
+    color: #c7ffec;
     font-weight: bold;
 
 }
 
 h2 {
     font-size: 7em;
-    color: #89ff52;
+    color: #c7ffec;
     font-weight: bold;
 
 }
@@ -30,6 +30,3 @@ h1 strong {
     -webkit-text-fill-color: transparent;
 }
 
-img.about {
-    opacity: 0.5;
-}
